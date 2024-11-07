@@ -29,15 +29,13 @@ export const MovieCard = ({ title, imageUrl, rating, onRemove, onDetails }: Movi
         />
         <View style={styles.infoContainer}>
           <Text 
-            style={[styles.title, { color: '#FFFFFF' }]}
+            style={styles.title}
             numberOfLines={1}
             ellipsizeMode="tail"
           >
             {title}
           </Text>
-          <Text style={styles.rating}>
-            ⭐ {rating}
-          </Text>
+          <Text style={styles.rating}>⭐ {rating}</Text>
         </View>
       </View>
     </View>
@@ -63,19 +61,22 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     backgroundColor: 'rgba(0,0,0,0.6)',
     padding: 8,
   },
   title: {
     flex: 1,
-    fontSize: 14,
+    color: '#FFFFFF',
+    fontSize: 12,
     fontWeight: '600',
     marginRight: 8,
-    color: '#FFFFFF',
   },
   rating: {
-    fontSize: 14,
-    fontWeight: '600',
     color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '600',
   },
 });

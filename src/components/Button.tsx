@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     gap: 4, // Space between icon and text
+    justifyContent: 'center',
   },
   wishlistText: {
     fontSize: 14,

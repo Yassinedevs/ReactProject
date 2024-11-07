@@ -63,12 +63,9 @@ function AppContent(): React.JSX.Element {
           headerShown: false,
           tabBarStyle: {
             paddingVertical: 5,
-            borderTopLeftRadius: 15,
-            borderTopRightRadius: 15,
             borderTopColor: COLORS[theme].border,
             backgroundColor: COLORS[theme].background,
             position: 'absolute',
-            borderTopWidth: 0,
           },
         })}>
         <Tab.Screen name="Home" component={HomeScreen} />

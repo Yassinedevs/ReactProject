@@ -172,15 +172,15 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.primary,
   },
   leftButton: {
-    marginLeft: '15%',
-    width: '30%',
-    marginRight: '5%',
+    marginLeft: '10%',
+    width: '37%',
+    marginRight: '3%',
     height: 40,
   },
   rightButton: {
-    marginLeft: '5%',
-    width: '30%',
-    marginRight: '15%',
+    marginLeft: '3%',
+    width: '37%',
+    marginRight: '10%',
     height: 40,
   },
   textContainer: {
@@ -196,13 +196,11 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   leftText: {
-    marginLeft: '15%',
-    width: '30%',
-    textAlign: 'center',
+    marginLeft: '37%',
+    textAlign: 'right',
   },
   rightText: {
-    marginLeft: '10%',
-    width: '30%',
-    textAlign: 'center',
+    marginLeft: '12%',
+    textAlign: 'left',
   }
 });
